@@ -81,4 +81,9 @@ public class GitCommandController {
     // git checkout
     // git merge branch name
     // git push origin
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+    }
+
 }
