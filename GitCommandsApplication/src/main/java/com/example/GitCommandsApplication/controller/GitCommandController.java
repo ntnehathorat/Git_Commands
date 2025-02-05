@@ -72,4 +72,13 @@ public class GitCommandController {
     public String getGitPullInfo() {
         return "'git pull' fetches and integrates changes from a remote repository.";
     }
+
+
+    //tocken saved in credetial manager in our system
+
+    // setting -> developer setting -> personal tocken -> classic tocken
+
+    // git checkout
+    // git merge branch name
+    // git push origin
 }
